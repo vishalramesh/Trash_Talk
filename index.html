@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trash Talk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="animate">
+                <div style="position: relative">
+                    <h1>Trash Talk</h1>
+                </div>
+                <form autocomplete="off">        
+                    <div class="autocomplete">
+                        <input class="clearable" id="input" name="myCountry" type="text" name="" placeholder="Search for item or choose from options" onclick='this.placeholder=""' onblur='this.placeholder="Search for item or choose from options"'></input>
+                        <!--
+                        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js">
+                            $('.clearable').clearSearch();
+                        </script>
+                        -->
+                    </div>
+                </form>
+            </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <!--<h1 style="color: yellow">Yellow Bin</h1>-->
+                <img src="recycling200.png" id="bin">
+                <!--<p>Some text in the Modal..</p>-->
+                <!--<a href="" style="text-align: center; color: black">More</a>-->
+                </div>
+            </div>
+        </div>
+        <!--<div id="circle">Green Rubbish</div>-->
+        <div id="footer">
+            <a href="about.html">About</a>
+            &middot;
+            <a href="feedback.html">Feedback</a>
+            &middot;
+            <a href="copyright.html">&copy; City of Canning 2019</a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
